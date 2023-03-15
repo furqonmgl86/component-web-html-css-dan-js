@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fefefe;
+  height: 1800px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.trip-search-section {
+  background: #045477;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  width: 80%;
+}
+.container {
+  background: #0dd582;
+  width: 100%;
+  /* padding: 0 5%; */
+}
+
+.trip-search-inner {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 30px;
+}
+.trip-search-inner .input-group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.trip-search-inner .input-group label {
+  font-size: 15px;
+  color: #383838;
+}
+.trip-search-inner .input-group input {
+  height: 50px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0 15px 0 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #f8f8f8;
+}
+.trip-search-inner .input-group input::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.trip-search-inner .input-group input[type="submit"] {
+  background-color: #f8cf09;
+  font-size: 15px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.trip-search-inner .input-group i {
+  position: absolute;
+  bottom: 18px;
+  right: 10px;
+}
